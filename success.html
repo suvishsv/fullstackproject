@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="success.css">
+
 </head>
+
 <body>
-    <h1>Register successfully</h1>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Upload the file</h1>
+            <p>upload the file upto 2 mp.Athorwise did not upload the file.</p>
+            <div class="input-group">
+                <label for="file">File</label>
+                <input type="file" name="file" id="file">
+                <div class="error"></div>
+                <button class="btn" onclick="btnclick" >Submit</button>
+        </form>
+    </div>
+
+    <script src="success.js"></script>
 </body>
+
 </html>
