@@ -34,9 +34,7 @@ if(fileSize > limit){
     return false;
 }
 else{
-    userinfo.textContent="File uploaded successfully";
     return true;
-
 }
 
 }
